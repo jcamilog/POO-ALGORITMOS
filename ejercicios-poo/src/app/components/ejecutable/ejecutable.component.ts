@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ejecutable.component.css']
 })
 export class EjecutableComponent implements OnInit {
+  public ingresar: string;
+  public retirar: number;
 
   constructor() { }
 
